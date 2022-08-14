@@ -111,8 +111,8 @@ body {
 }
 
 .desktop__row-item {
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-right: 48px;
+  margin-left: 48px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -137,7 +137,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   top: 0px;
-  left: 128px;
+  left: 0px;
 }
 
 .desktop__column-transport_background {
@@ -152,9 +152,50 @@ body {
   background-size: 94px 108px;
   position: absolute;
   top: 0px;
-  left: 356px;
+  left: 306px;
 }
 
 .desktop__row-background {
   position: relative;
+}
+
+.desktop__column-bus-forwarder_background {
+  width: 96px;
+  height: 106px;
+  background: url(../img/desktop__column-bus-forwarder_background.png);
+  background-size: 96px 106px;
+  position: absolute;
+  top: 0;
+  left: 598px;    
+}
+
+.desktop__column-customs-clearance {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.desktop__column-bus-forwarder {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.desktop__column-fleet-management {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.desktop__column-fleet-management_background {
+  width: 144px;
+  height: 124px;
+  background: url(../img/desktop__column-fleet-management_background.png);
+  background-size: 144px 124px;
+  position: absolute;
+  top: -20px;
+  right: 0;
 }
