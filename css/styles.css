@@ -106,8 +106,8 @@ body {
 .desktop__row {
   display: flex;
   flex-direction: row;
-  margin-top: 64px;
   margin-bottom: 48px;
+  position: relative;
 }
 
 .desktop__row-item {
@@ -116,6 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 4px;
 }
 
 .desktop__column-title {
@@ -126,4 +127,34 @@ body {
 .desktop__column-transport {
   width: 180px;
   height: 116px;
+}
+
+.desktop__column-transport_background {
+  background: url(../img/desktop__column-transport_background.png);
+  width: 135px;
+  height: 106px;
+  background-size: 135px 106px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 128px;
+}
+
+.desktop__column-transport_background {
+  width: 1022px;
+  height: 106px;
+  position: relative;
+}
+.desktop__column-customs-clearance_background {
+  width: 94px;
+  height: 108px;
+  background: url(../img/desktop__column-customs-clearance_background.png);
+  background-size: 94px 108px;
+  position: absolute;
+  top: 0px;
+  left: 356px;
+}
+
+.desktop__row-background {
+  position: relative;
 }
